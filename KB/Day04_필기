@@ -1,0 +1,16 @@
+웹 페이지 크롤링
+
+1. 정적 페이지 : requests + BeautitulSoup
+
+2. 동적 페이지 : 자바 스크립트가 동적으로 태그 조작.
+-> koreabaseball.com
+-> Selenium 사용 : 웹브라우저를 함수로 제어.
+-> 원하는 브라우저용 드라이버 설치 : 크롬, 파이어폭스, 엣지
+크롬브라우저용 드라이버 : https://chromedriver.chromium.org/downloads
+https://blog.daum.net/sualchi/13721870 오류 바꿔주기
+-> from selenium.webdriver.common.by import By
+   search_box = driver.find_element(By.NAME, "q")
+   
+=========================================
+조건인덱싱 : 1차원 True, False 배열을
+2차원 배열의 조건으로 제공하면 Ture에 해당하는 행들이 반환된다.
